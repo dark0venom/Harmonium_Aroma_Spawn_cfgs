@@ -1,0 +1,42 @@
+"Gamemodes_Server.txt"
+{
+    "gameTypes"
+    {
+        "classic"
+        {
+            "gameModes"
+            {
+                "casual"
+                {
+                    "maxplayers" "24"
+                }
+                "competitive"
+                {
+                    "maxplayers" "24"
+                    "mapgroupsMP"
+                    
+                        Mambo
+                    
+                }
+            }
+        }
+    }
+    "mapgroups"
+    {
+        "Mambo"
+        {
+            "name" "Mambo"
+            "maps"
+            {
+                "cs_assault" "0"
+                "cs_italy" "1"
+                "cs_office" "2"
+                "de_aztec" "3"
+                "cs_militia" "4"
+                "de_dust2" "5"
+                "de_inferno" "6"
+                "de_train" "7"
+            }
+        }
+    }
+}
